@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect, useContext } from 'react';
-import { Navigate } from 'react-router-dom';
+import { Navigate, NavLink } from 'react-router-dom';
 import AuthContext from "../context/AuthProvider";
 
 import axios from '../api/axios';
@@ -90,7 +90,7 @@ const LoginPage = () => {
                         Need an Account?<br />
                         <span className="line">
                             {/*put router link here*/}
-                            <a href="#">Sign Up</a>
+                            <NavLink to="/register">Sign Up</NavLink>
                         </span>
                     </p>
                 </section>
