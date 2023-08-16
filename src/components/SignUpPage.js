@@ -173,7 +173,7 @@ const Register = () => {
                         Already registered?<br />
                         <span className="line">
                             {/*put router link here*/}
-                            <NavLink to="/login">Sign In</NavLink>
+                            <NavLink to="/">Sign In</NavLink>
                         </span>
                     </p>
                 </section>
